@@ -32,7 +32,8 @@ We epecially acknowledge the wonderful humans below.
 [@mwojick](https://github.com/mwojick),
 [@kowasaur](https://github.com/kowasaur),
 [@NirDafnai](https://github.com/NirDafnai),
-[@miroshQa](https://github.com/miroshQa)
+[@miroshQa](https://github.com/miroshQa),
+[@RicBent](https://github.com/RicBent)
 
 ## Translators
 
