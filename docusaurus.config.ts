@@ -8,7 +8,7 @@ const config: Config = {
   favicon: "img/favicon.ico",
   url: "https://killergerbah.github.io",
   baseUrl: "/asbplayer-docs",
-  organizationName: "asbplayer",
+  organizationName: "killergerbah",
   projectName: "asbplayer-docs",
 
   onBrokenLinks: "throw",
@@ -25,8 +25,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          editUrl:
-            "https://github.com/killergerbah/asbplayer-docs/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/killergerbah/asbplayer-docs/edit/main ",
         },
         blog: {
           showReadingTime: true,
@@ -34,8 +33,6 @@ const config: Config = {
             type: ["rss", "atom"],
             xslt: true,
           },
-          editUrl:
-            "https://github.com/killergerbah/asbplayer-docs/tree/main/packages/create-docusaurus/templates/shared/",
           onInlineTags: "warn",
           onInlineAuthors: "warn",
           onUntruncatedBlogPosts: "warn",
