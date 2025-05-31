@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>asbplayer Blog</title>
+        <link>https://killergerbah.github.io/asbplayer-docs/blog</link>
+        <description>asbplayer Blog</description>
+        <lastBuildDate>Sat, 31 May 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Finally! Docs!]]></title>
+            <link>https://killergerbah.github.io/asbplayer-docs/blog/first-post</link>
+            <guid>https://killergerbah.github.io/asbplayer-docs/blog/first-post</guid>
+            <pubDate>Sat, 31 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[It's been long overdue, but asbplayer finally has a documentation site!]]></description>
+            <content:encoded><![CDATA[<p>It's been long overdue, but asbplayer finally has a documentation site!</p>
+<p>asbplayer has always appealed to tools-savvy users, but with the upcoming extension version 1.11.0
+including an in-app tutorial, it felt appropriate to full-send layman-friendly features and build this site.</p>
+<p>A lot of it is just a reorganization of the README but I hope that with community feedback it will improve over time.</p>
+<p>In the long run, hopefully asbplayer becomes easier and easier to use, benefitting not just the tools-savvy,
+but anyone who wants to learn languages and enjoy doing it.</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

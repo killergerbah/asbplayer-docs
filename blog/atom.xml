@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://killergerbah.github.io/asbplayer-docs/blog</id>
+    <title>asbplayer Blog</title>
+    <updated>2025-05-31T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://killergerbah.github.io/asbplayer-docs/blog"/>
+    <subtitle>asbplayer Blog</subtitle>
+    <icon>https://killergerbah.github.io/asbplayer-docs/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Finally! Docs!]]></title>
+        <id>https://killergerbah.github.io/asbplayer-docs/blog/first-post</id>
+        <link href="https://killergerbah.github.io/asbplayer-docs/blog/first-post"/>
+        <updated>2025-05-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It's been long overdue, but asbplayer finally has a documentation site!]]></summary>
+        <content type="html"><![CDATA[<p>It's been long overdue, but asbplayer finally has a documentation site!</p>
+<p>asbplayer has always appealed to tools-savvy users, but with the upcoming extension version 1.11.0
+including an in-app tutorial, it felt appropriate to full-send layman-friendly features and build this site.</p>
+<p>A lot of it is just a reorganization of the README but I hope that with community feedback it will improve over time.</p>
+<p>In the long run, hopefully asbplayer becomes easier and easier to use, benefitting not just the tools-savvy,
+but anyone who wants to learn languages and enjoy doing it.</p>]]></content>
+        <author>
+            <name>R-J</name>
+            <uri>https://github.com/killergerbah</uri>
+        </author>
+    </entry>
+</feed>

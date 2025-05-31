@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkasbplayer_docs=self.webpackChunkasbplayer_docs||[]).push([[903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/asbplayer-docs/blog","blogTitle":"Blog","authorsListPath":"/asbplayer-docs/blog/authors"}')}}]);

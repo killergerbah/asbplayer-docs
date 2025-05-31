@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkasbplayer_docs=self.webpackChunkasbplayer_docs||[]).push([[424],{1059:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/asbplayer-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

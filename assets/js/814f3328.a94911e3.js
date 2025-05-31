@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkasbplayer_docs=self.webpackChunkasbplayer_docs||[]).push([[472],{5513:s=>{s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Finally! Docs!","permalink":"/asbplayer-docs/blog/first-post","unlisted":false,"date":"2025-05-31T00:00:00.000Z"}]}')}}]);

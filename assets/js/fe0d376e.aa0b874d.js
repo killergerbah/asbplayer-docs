@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkasbplayer_docs=self.webpackChunkasbplayer_docs||[]).push([[169],{6337:e=>{e.exports=JSON.parse('{"authors":[{"name":"R-J","title":"Maintainer","url":"https://github.com/killergerbah","page":{"permalink":"/asbplayer-docs/blog/authors/killergerbah"},"imageURL":"https://github.com/killergerbah.png","key":"killergerbah","count":1}]}')}}]);
