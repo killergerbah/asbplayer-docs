@@ -25,7 +25,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          editUrl: "https://github.com/killergerbah/asbplayer-docs/edit/main ",
+          editUrl: "https://github.com/killergerbah/asbplayer-docs/edit/main",
         },
         blog: {
           showReadingTime: true,
