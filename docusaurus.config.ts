@@ -61,7 +61,7 @@ const config: Config = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/killergerbah/asbplayer-docs",
+          href: "https://github.com/killergerbah/asbplayer",
           className: "header-github-link",
           position: "right",
           "aria-label": "GitHub repository",
@@ -94,7 +94,7 @@ const config: Config = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/killergerbah/asbplayer-doccs",
+              href: "https://github.com/killergerbah/asbplayer",
             },
           ],
         },
