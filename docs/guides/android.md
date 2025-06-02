@@ -7,7 +7,7 @@ sidebar_position: 2
 While the UX is worse, it's possible to use asbplayer on Android devices.
 
 :::warning
-**Many features are missing**: **screenshots**, and the **WebSocket interface**.
+**Many features are missing**: the **side panel**, **screenshots**, and the **WebSocket interface**.
 :::
 
 ## Website
