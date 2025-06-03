@@ -16,13 +16,13 @@ The website can be used as-is. The **Overlay UI** will be displayed instead of t
 
 ## Extension
 
-The asbplayer extension on the following browsers. As with the website, the primary way to interact with asbplayer will be through the **Overlay UI**.
+The asbplayer extension is availablee on the following Android browsers. As with the website, the primary way to interact with asbplayer will be through the **Overlay UI**.
 
 Keyboard shortcuts and the side panel are missing, so instead **subtitles are loaded by selecting the asbplayer button from the browser's extension menu.**
 
 ### Chromium-based
 
-The asbplayer extnesion is available for Chromium-based browsers on the Chrome [web store](https://chromewebstore.google.com/detail/asbplayer-language-learni/hkledmpjpaehamkiehglnbelcpdflcab) or from the [releases page](https://github.com/killergerbah/asbplayer/releases).
+The asbplayer extension is available for Chromium-based browsers on the Chrome [web store](https://chromewebstore.google.com/detail/asbplayer-language-learni/hkledmpjpaehamkiehglnbelcpdflcab) or from the [releases page](https://github.com/killergerbah/asbplayer/releases).
 
 #### Kiwi Browser (discontinued)
 

@@ -15,7 +15,7 @@ The fastest way to fix subtitle timing is with the [keyboard shortcuts](https://
 
 Most often, finding the correct offset will look like this:
 
-1. Wait a character to start talking.
+1. Wait for a character to start talking.
 2. `Ctrl + Left/Right` until the subtitle matching the character's dialog appears on screen.
 3. `Ctrl + Shift + Right/Left` until the subtitle timing precisely matches the dialog.
 

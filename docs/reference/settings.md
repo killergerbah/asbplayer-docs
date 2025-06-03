@@ -48,7 +48,7 @@ Default tags to supply with each card.
 
 ### Mining button default action
 
-**Mining button** <NoteAddIcon/> refers to the leftmost button that appears in the **Overlay UI**, and the button that appears next to subtitles in the **Subtitle List**. This setting configures what those buttons do.
+** Mining button** <NoteAddIcon/> refers to the leftmost button that appears in the **Overlay UI**, and the button that appears next to subtitles in the **Subtitle List**. This setting configures what those buttons do.
 
 | Setting          | Behavior                                                                                                                                                                                               |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -202,11 +202,11 @@ When mining a subtitle, take a screenshot for inclusion in the flashcrd.
 
 ### Clean screenshot when mining
 
-When mining a subtitle and screenshots are enabled, keep the screnshot "clean" by removing any HTML elements on top of the video element before taking the screenshot.
+When mining a subtitle and screenshots are enabled, keep the screenshot "clean" by removing any HTML elements on top of the video element before taking the screenshot.
 
 ### Screenshot capture delay
 
-How long to wait from the beginning of target subtitle before taking the screenshot.
+How long to wait after the target subtitle appears before taking the screenshot.
 
 ### Allow subtitle file drag-and-drop
 
@@ -218,11 +218,11 @@ If subtitle auto-detection is supported on the current website, load them automa
 
 ### Condensed playback minimum skip interval
 
-When condensed playback is enabled, only skip to the next subtitle if the next subtitle is at least a certain amount of time away.
+When condensed playback is enabled, skip to the next subtitle only if the next subtitle is at least this amount of time away.
 
 ### App URL
 
-The website URL. Determines where the extension fetches some configuration, and what URL to open when syncing subtitles to a separate tab.
+Determines where the extension fetches some configuration, and what URL to open when syncing subtitles to the website running in a separate tab. Essentially the website URL.
 
 ## [Misc](https://killergerbah.github.io/asbplayer/?view=settings#misc-settings)
 
@@ -232,7 +232,7 @@ Display all asbplayer in a light or dark theme.
 
 ### Remember subtitle offset
 
-Subtitle timing offset is "sticky." When subtitles are loaded, they are automatically loaded at the offset of the last track loaded.
+When enabled, timing offset is "sticky." Subtitles are loaded with the last-used offset.
 
 ### Auto-copy current subtitle to clipboard
 
@@ -248,7 +248,7 @@ Limits the number of cards that can be saved in the mining history.
 
 ### Subtitle regex filter
 
-Substrings matched by this regex will be replaced by the value of `Subtitle regex filter text replacement`.
+Substrings matched by this regex will be replaced by the value of [Subtitle regex filter text replacement](#subtitle-regex-filter-text-replacement)
 
 ### Subtitle regex filter text replacement
 
@@ -274,7 +274,7 @@ Auto-pause behavior when mousing over subtitles. "Enabled with auto-resume" mean
 
 ### Playback speed adjust step
 
-Increment to use when using the "increase/decrease playback rate" keyboard shortcuts.
+Time increment to use when using the "increase/decrease playback rate" keyboard shortcuts.
 
 ### Fast-forward mode playback rate
 
@@ -286,7 +286,7 @@ Enables the WebSocket client. Allows asbplayer to be controlled using the WebSoc
 
 ### WebSocket Server URL
 
-The URL of the WebSocket server to connect to when enabling the WebSocket client. Usually this would be a locally-running instance of the Go-based WebSocket server.
+The URL of the WebSocket server to connect to when enabling the WebSocket client. Usually this would be a locally-running instance of the [pre-packaged WebSocket server](../guides/web-socket-server).
 
 ### Import/export settings
 
@@ -294,4 +294,4 @@ Imports or exports settings as a `json` file. Settings files exported from older
 
 ## Profiles
 
-A settings profile is a completely different, labeled set of settings values. Settings profiles can be switched from the settings UI or from the **Load Subtitles** and **Anki Export** dialogs.
+A settings profile is a completely different set of settings values. The active settings profile can be changed from the settings UI or from the **Load Subtitles** and **Anki Export** dialogs.

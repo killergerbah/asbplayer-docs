@@ -4,12 +4,12 @@ sidebar_position: 4
 
 # One-click mining
 
-asbplayer is great at connecting subtitle and video content to AnkiConnect, but is not able to automatically provide word definitions on its own. For this reason, most sentnece mining flows require at two or three mouse or keyboard inputs from the user.
+asbplayer is great at connecting subtitle and video content to AnkiConnect, but is not able to automatically provide word definitions on its own. For this reason, most sentence mining flows require at two or three mouse or keyboard inputs from the user.
 
 One-click mining is possible if asbplayer is combined with another application that:
 
-- Supplies the missing word definition information, and
-- Already integrates with AnkiConnect
+- supplies the missing word definition information, and
+- already integrates with AnkiConnect.
 
 [Yomitan](https://yomitan.wiki/) is an example of one such application.
 

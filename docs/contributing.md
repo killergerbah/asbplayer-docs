@@ -46,7 +46,7 @@ If you have problems building try deleting `node_modules` and re-running `yarn`.
 
 ## Localization
 
-Any new localization keys should first be added to the English loc files, and then copied across all localization files using a helper script.
+Any new localization keys should first be added to the English loc files, and then copied across all the other loc files using a helper script.
 
 ```bash
 node ./scripts/loc/merge-loc-from-en.js
