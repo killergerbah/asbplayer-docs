@@ -6,8 +6,8 @@ const config: Config = {
   title: "asbplayer",
   tagline: "Learn languages with subtitles",
   favicon: "img/favicon.ico",
-  url: "https://killergerbah.github.io",
-  baseUrl: "/asbplayer-docs",
+  url: "https://docs.asbplayer.dev",
+  baseUrl: "/",
   organizationName: "killergerbah",
   projectName: "asbplayer-docs",
 
