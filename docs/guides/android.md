@@ -7,7 +7,7 @@ sidebar_position: 2
 While the UX is worse, it's possible to use asbplayer on Android devices.
 
 :::warning
-**Many features are missing**: the **side panel**, **keyboard shortcuts**, **screenshots**, and the **WebSocket interface**.
+**Many features are missing**: the **side panel**, **screenshots**, and the **WebSocket interface**.
 :::
 
 ## Website
@@ -18,7 +18,9 @@ The website can be used as-is. The **Overlay UI** will be displayed instead of t
 
 The asbplayer extension is availablee on the following Android browsers. As with the website, the primary way to interact with asbplayer will be through the **Overlay UI**.
 
-Keyboard shortcuts and the side panel are missing, so instead **subtitles are loaded by selecting the asbplayer button from the browser's extension menu.**
+The side panel is missing, so instead **subtitles are loaded by selecting the asbplayer button from the browser's extension menu.**
+
+Using a (bluetooth) keyboard is not necessary but can be very useful for those who prefer to use keyboard shortcuts with the extension.
 
 ### Chromium-based
 
