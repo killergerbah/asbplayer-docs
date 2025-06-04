@@ -16,7 +16,7 @@ The website can be used as-is. The **Overlay UI** will be displayed instead of t
 
 ## Extension
 
-The asbplayer extension is availablee on the following Android browsers. As with the website, the primary way to interact with asbplayer will be through the **Overlay UI**.
+The asbplayer extension is available on the following Android browsers. As with the website, the primary way to interact with asbplayer will be through the **Overlay UI**.
 
 The side panel is missing, so instead **subtitles are loaded by selecting the asbplayer button from the browser's extension menu.**
 
