@@ -46,7 +46,8 @@ We epecially acknowledge the wonderful humans below.
 **Yuri (ganqqwerty)** (Russian),
 **Kellen (kputuhuk)** (Russian),
 **Vladislav Kochetkov (vakochetkov)** (Russian),
-**825i** (Finnish)
+**825i** (Finnish),
+**Jaybird** (French)
 
 If you are a non-English native, and would like to help translate asbplayer, join the [Crowdin project](https://crowdin.com/project/asbplayer). If your language isn't there, feel free to create an issue on the [issues page](https://github.com/killergerbah/asbplayer/issues).
 
