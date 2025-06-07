@@ -14,6 +14,10 @@ While the UX is worse, it's possible to use asbplayer on Android devices.
 
 The website can be used as-is. The **Overlay UI** will be displayed instead of the default, desktop-optimized video controls.
 
+### Add to home screen
+
+As a progressive web app, the website can be added to the home screen of your Android device. From the browser menu, tap "add to home screen."
+
 ## Extension
 
 The asbplayer extension is available on the following Android browsers. As with the website, the primary way to interact with asbplayer will be through the **Overlay UI**.
