@@ -41,3 +41,7 @@ Edge Canary is another Chromium-based mobile browser that can run extensions. Ho
 ### Firefox for Android
 
 Install asbplayer from the [AMO page](https://addons.mozilla.org/en-US/android/addon/asbplayer-android/). Firefox for Android suffers from the same limitations as Firefox - it's not possible to record audio from DRM-protected streams.
+
+## Anki integration
+
+Install [AnkiConnect Android](https://github.com/KamWithK/AnkiconnectAndroid) for Anki integration.
