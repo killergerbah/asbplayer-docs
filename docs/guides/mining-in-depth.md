@@ -19,7 +19,7 @@ There are multiple ways to open the **Anki Export Dialog**:
 4. Right-click → asbplayer → **Mine Subtitle** on streaming video.
 
 :::info
-Methods #1 and #2 will open the dialog only if the [mining button default action](/reference/settings#mining-button-default-action) is set to "Show Anki dialog."  
+Methods #1 and #2 will open the dialog only if the [mining button default action](../reference/settings#mining-button-default-action) is set to "Show Anki dialog."  
 :::
 
 :::info
