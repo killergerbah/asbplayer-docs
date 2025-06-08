@@ -23,7 +23,10 @@ Follow the [WebSocket server guide](./web-socket-server) to setup an AnkiConnect
 
 ## Point Yomitan at the proxy
 
-Configure Yomitan's AnkiConnect URL to point at the AnkiConnect proxy rather than AnkiConnect. The default URL is `http://127.0.0.1:8766`.
+Configure Yomitan:
+
+- The AnkiConnect URL should point at the AnkiConnect proxy rather than AnkiConnect. The default proxy URL is `http://127.0.0.1:8766`.
+- Yomitan should be using the same **Note Type** as asbplayer.
 
 ## Mine with **Yomitan** as usual
 
