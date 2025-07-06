@@ -24,6 +24,7 @@ sidebar_position: 7
 | **Firefox**                      |      ✓      |             ✓             |                       |            |                     |
 | **Firefox for Android**          |             |             ✓             |                       |            |                     |
 | **Kiwi Browser (Android)**       |             |             ✓             |           ✓           |            |                     |
+| **Edge Canary (Android)**        |      ✓      |                           |                       |            |                     |
 
 ### Streaming services and subtitle detection
 
