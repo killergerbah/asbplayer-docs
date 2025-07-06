@@ -94,6 +94,7 @@ AstralDice,
 Peter,
 [@825i](https://github.com/825i),
 ags,
-Vannde3
+Vannde3,
+Champ
 
 and those who have donated privately.
