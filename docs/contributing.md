@@ -49,7 +49,9 @@ If you have problems building try deleting `node_modules` and re-running `yarn`.
 Any new localization keys should first be added to the English loc files, and then copied across all the other loc files using a helper script.
 
 ```bash
-node ./scripts/loc/merge-loc-from-en.js
+cd ./scripts/loc
+npm install
+node ./merge-loc-from-en.js
 ```
 
 Translations are later pulled from the [Crowdin project](https://crowdin.com/project/asbplayer).
