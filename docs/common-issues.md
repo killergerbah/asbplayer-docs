@@ -58,3 +58,7 @@ See this [issue](https://github.com/killergerbah/asbplayer/issues/220#issuecomme
 ### asbplayer keeps asking for permission to record audio
 
 asbplayer is not currently compatible with the Volume Master extension. So you'll need to disable it.
+
+### Audio recordings are garbled, scratchy, or spotty
+
+This is usually due to insufficient CPU. If you are on a laptop, make sure it's connected to a power source. In general make sure your CPU is not being throttled by battery-saving mode, etc.
