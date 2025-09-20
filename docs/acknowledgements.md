@@ -42,7 +42,7 @@ We epecially acknowledge the wonderful humans below.
 **Kai Böse** (German),
 **Triline**, **nekorushi** (Polish),
 **NeverWinterSwor** (Simplified Chinese),
-**Yagxter** (Brazilian Portuguese),
+**Yagxter**, **Chatterine** (Brazilian Portuguese),
 **Leo Gonzalez** (Spanish),
 **Yuri (ganqqwerty)** (Russian),
 **Kellen (kputuhuk)** (Russian),
