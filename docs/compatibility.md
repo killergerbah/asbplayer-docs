@@ -37,10 +37,11 @@ sidebar_position: 7
 | TVer           |                                                  ✓                                                  |
 | Bandai Channel |                                                  ✓                                                  |
 | Amazon Prime   |                                 Timing sometimes off by 30 seconds                                  |
-| Emby/Jellyfin  |                                Hosts like `jellyfin*\|emby*\|:8096*`                                |
+| Emby/Jellyfin  |                      Configure custom domains from the page-specific settings.                      |
 | Rakuten Viki   |                                                  ✓                                                  |
-| osnplus        |                                                  ✓                                                  |
-| Plex           |                        External subtitles only on hosts like `plex*:32400*`                         |
+| osnplus        |  Compatibility with osnplus is currently unknown. Reach out if you have more information on this.   |
+| Plex           |         External subtitles only. Configure custom domains from the page-specific settings.          |
 | BiliBili       |                                                  ✓                                                  |
 | NRK TV         |                                                  ✓                                                  |
 | HBO Max        |                                                  ✓                                                  |
+| Yle Areena     |                                                  ✓                                                  |
