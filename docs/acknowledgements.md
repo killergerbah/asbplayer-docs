@@ -34,7 +34,9 @@ We epecially acknowledge the wonderful humans below.
 [@NirDafnai](https://github.com/NirDafnai),
 [@miroshQa](https://github.com/miroshQa),
 [@RicBent](https://github.com/RicBent),
-[@fuyuka1d3su](https://github.com/fuyuka1d3su)
+[@fuyuka1d3su](https://github.com/fuyuka1d3su),
+[@SpazzTL](https://github.com/SpazzTL),
+[@mseh1128](https://github.com/mseh1128)
 
 ## Translators
 
