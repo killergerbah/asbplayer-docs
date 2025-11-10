@@ -21,27 +21,27 @@ sidebar_position: 7
 |                                  | Screenshots | Audio Recording (non-DRM) | Audio Recording (DRM) | Side Panel | WebSocket Interface |
 | -------------------------------- | :---------: | :-----------------------: | :-------------------: | :--------: | :-----------------: |
 | **Most Chromium-based browsers** |      ✓      |             ✓             |           ✓           |     ✓      |          ✓          |
-| **Firefox**                      |      ✓      |             ✓             |                       |            |                     |
+| **Firefox**                      |      ✓      |             ✓             |                       |            |          ✓          |
 | **Firefox for Android**          |             |             ✓             |                       |            |                     |
 | **Kiwi Browser (Android)**       |             |             ✓             |           ✓           |            |                     |
 | **Edge Canary (Android)**        |      ✓      |                           |                       |            |                     |
 
 ### Streaming services and subtitle detection
 
-| Service        |                                            Compatibility                                            |
-| -------------- | :-------------------------------------------------------------------------------------------------: |
-| Netflix        |                                                  ✓                                                  |
-| YouTube        |                                                  ✓                                                  |
-| Disney Plus    | Seeking/timing is completely broken ([issue](https://github.com/killergerbah/asbplayer/issues/576)) |
-| Hulu           |                                                  ✓                                                  |
-| TVer           |                                                  ✓                                                  |
-| Bandai Channel |                                                  ✓                                                  |
-| Amazon Prime   |                                 Timing sometimes off by 30 seconds                                  |
-| Emby/Jellyfin  |                      Configure custom domains from the page-specific settings.                      |
-| Rakuten Viki   |                                                  ✓                                                  |
-| osnplus        |  Compatibility with osnplus is currently unknown. Reach out if you have more information on this.   |
-| Plex           |         External subtitles only. Configure custom domains from the page-specific settings.          |
-| BiliBili       |                                                  ✓                                                  |
-| NRK TV         |                                                  ✓                                                  |
-| HBO Max        |                                                  ✓                                                  |
-| Yle Areena     |                                                  ✓                                                  |
+| Service        |                                                                                Compatibility                                                                                |
+| -------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Netflix        |                                                                                      ✓                                                                                      |
+| YouTube        |                                                                                      ✓                                                                                      |
+| Disney Plus    |                                     Seeking/timing is completely broken ([issue](https://github.com/killergerbah/asbplayer/issues/576))                                     |
+| Hulu           |                                                                                      ✓                                                                                      |
+| TVer           |                                                                                      ✓                                                                                      |
+| Bandai Channel |                                                                                      ✓                                                                                      |
+| Amazon Prime   |                                                                     Timing sometimes off by 30 seconds                                                                      |
+| Emby/Jellyfin  |                                                          Configure custom domains from the page-specific settings.                                                          |
+| Rakuten Viki   |                                                                                      ✓                                                                                      |
+| osnplus        |                                      Compatibility with osnplus is currently unknown. Reach out if you have more information on this.                                       |
+| Plex           | Supports external subtitles. As for internal subtitles, first select them from Plex UI to make them selectable from asbplayer. Configure custom domains from the page-specific settings. |
+| BiliBili       |                                                                                      ✓                                                                                      |
+| NRK TV         |                                                                                      ✓                                                                                      |
+| HBO Max        |                                                                                      ✓                                                                                      |
+| Yle Areena     |                                                                                      ✓                                                                                      |
