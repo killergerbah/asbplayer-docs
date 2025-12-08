@@ -28,7 +28,7 @@ The proxy is very lightweight, so it's fine to leave it running in the backgroun
 
 ## Connect asbplayer to the server
 
-Configure and enable asbplayer's WebSocket client from the [misc settings](https://killergerbah.github.io/asbplayer/?view=settings#misc-settings). By default, asbplayer is already pointed at the WebSocket server's default IP address and port, and so in general all that's required is to enable the WebSocket client.
+Configure and enable asbplayer's WebSocket client from the [misc settings](https://app.asbplayer.dev/?view=settings#misc-settings). By default, asbplayer is already pointed at the WebSocket server's default IP address and port, and so in general all that's required is to enable the WebSocket client.
 
 ## Use the server
 

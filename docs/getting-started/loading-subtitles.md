@@ -29,5 +29,5 @@ See the [Android guide](../guides/android).
 
 ## Video files
 
-1. Open the [website](https://killergerbah.github.io/asbplayer/).
+1. Open the [website](https://app.asbplayer.dev/).
 2. Drag-and-drop video and subtitle files into the website.

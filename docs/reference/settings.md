@@ -6,7 +6,7 @@ import NoteAddIcon from '@site/src/components/NoteAddIcon';
 
 # Settings
 
-## [Anki](https://killergerbah.github.io/asbplayer/?view=settings#anki-settings)
+## [Anki](https://app.asbplayer.dev/?view=settings#anki-settings)
 
 ### AnkiConnect URL
 
@@ -44,7 +44,7 @@ Fields will appear in the **Anki Export Dialog** in the order that they appear i
 
 Default tags to supply with each card.
 
-## [Mining](https://killergerbah.github.io/asbplayer/?view=settings#mining-settings)
+## [Mining](https://app.asbplayer.dev/?view=settings#mining-settings)
 
 ### Mining button default action
 
@@ -93,7 +93,7 @@ At the bottom of **Anki Export Dialog** there's a slider which can be used to ad
 
 At the bottom of **Anki Export Dialog** there's a slider which can be used to adjust the selected time interval. The slider includes surrounding subtitles as additional context. This setting controls the size of the allowed time interval around the target subtitle, for those surrounding subtitles.
 
-## [Subtitle appearance](https://killergerbah.github.io/asbplayer/?view=settings#subtitle-appearance)
+## [Subtitle appearance](https://app.asbplayer.dev/?view=settings#subtitle-appearance)
 
 ### Subtitle track
 
@@ -127,7 +127,7 @@ Distance from the bottom of the video element of all **bottom** subtitle tracks.
 
 Scales the size of image-based subtitles. Image-based subtitles are ripped from BluRay discs and come in files with a `.sup` extension.
 
-## [Keyboard shortcuts](https://killergerbah.github.io/asbplayer/?view=settings#keyboard-shortcuts)
+## [Keyboard shortcuts](https://app.asbplayer.dev/?view=settings#keyboard-shortcuts)
 
 Keyboard shortcuts can be used to access most of asbplayer's features.
 
@@ -176,7 +176,7 @@ Some shortcut behaviors require privileged browser extension APIs, requiring the
 - Chrome: `chrome://extensions/shortcuts`
 - Firefox: `about:addons` → `Manage Extension Shortcuts`
 
-## [Streaming video](https://killergerbah.github.io/asbplayer/?view=settings#streaming-video) (extension only)
+## [Streaming video](https://app.asbplayer.dev/?view=settings#streaming-video) (extension only)
 
 Streaming video settings are available only when the browser extension is installed.
 
@@ -224,7 +224,7 @@ When condensed playback is enabled, skip to the next subtitle only if the next s
 
 Determines where the extension fetches some configuration, and what URL to open when syncing subtitles to the website running in a separate tab. Essentially the website URL.
 
-## [Misc](https://killergerbah.github.io/asbplayer/?view=settings#misc-settings)
+## [Misc](https://app.asbplayer.dev/?view=settings#misc-settings)
 
 ### Theme
 

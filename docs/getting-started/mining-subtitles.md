@@ -62,7 +62,7 @@ import NoteAddIcon from '@site/src/components/NoteAddIcon';
 
 ## Configure asbplayer
 
-1. Open [asbplayer's settings](https://killergerbah.github.io/asbplayer/?view=settings).
+1. Open [asbplayer's settings](https://app.asbplayer.dev/?view=settings).
 2. Select the **Deck** and **Note Type** you just created.
 3. For each of the **Sentence**, **Definition**, **Word**, **Audio**, **Image**, **Source**, and **URL** fields, select the corresponding field in the note type.
 
