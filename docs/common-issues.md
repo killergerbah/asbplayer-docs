@@ -38,7 +38,7 @@ Make sure that in the extension details, the extension has access to all sites.
 
 ### Keyboard shortcuts aren't working.
 
-Check the [keyboard shortcut settings](https://killergerbah.github.io/asbplayer/?view=settings#keyboard-shortcuts).
+Check the [keyboard shortcut settings](https://app.asbplayer.dev/?view=settings#keyboard-shortcuts).
 
 Also, if using the extension:
 
@@ -49,7 +49,7 @@ Also, if using the extension:
 
 ### asbplayer isn't properly cropping screenshots from streaming video.
 
-Make sure the browser zoom setting is at 100%. Cropping can be disabled altogether from the [extension settings](https://killergerbah.github.io/asbplayer/?view=settings#misc-settings).
+Make sure the browser zoom setting is at 100%. Cropping can be disabled altogether from the [extension settings](https://app.asbplayer.dev/?view=settings#misc-settings).
 
 ### I'm having trouble creating cards using JP mining note.
 
