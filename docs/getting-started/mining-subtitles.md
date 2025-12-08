@@ -12,7 +12,7 @@ import NoteAddIcon from '@site/src/components/NoteAddIcon';
 
 1. Install [Anki](https://apps.ankiweb.net/).
 2. Add [AnkiConnect](https://ankiweb.net/shared/info/2055492159) to Anki.
-3. If mining from video files, add `https://killergerbah.github.io` to the `webCorsOriginList` in AnkiConnect's settings:
+3. If mining from video files, add `https://app.asbplayer.dev` to the `webCorsOriginList` in AnkiConnect's settings:
    ```json
    {
      "apiKey": null,
@@ -21,7 +21,7 @@ import NoteAddIcon from '@site/src/components/NoteAddIcon';
      "webBindAddress": "127.0.0.1",
      "webBindPort": 8765,
      "webCorsOriginList": [
-       "https://killergerbah.github.io" // <-- Make sure this line is here
+       "https://app.asbplayer.dev" // <-- Make sure this line is here
      ]
    }
    ```
