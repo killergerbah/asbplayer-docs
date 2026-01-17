@@ -62,3 +62,7 @@ asbplayer is not currently compatible with the Volume Master extension. So you'l
 ### Audio recordings are garbled, scratchy, or spotty
 
 This is usually due to insufficient CPU. If you are on a laptop, make sure it's connected to a power source. In general make sure your CPU is not being throttled by battery-saving mode, etc.
+
+### When happens when I use a keyboard shortcut to open asbplayer for streaming video, and the page becomes unresponsive.
+
+This can happen because `Experimental Web Platform features` is enabled in `chrome://flags`. Make sure it's disabled and try again.
