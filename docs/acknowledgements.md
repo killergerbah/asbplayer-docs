@@ -42,7 +42,8 @@ We epecially acknowledge the wonderful humans below.
 [@Bennycopter](https://github.com/Bennycopter),
 [@extremq](https://github.com/extremq),
 [@iamllama](https://github.com/iamllama),
-[@danthemango](https://github.com/danthemango)
+[@danthemango](https://github.com/danthemango),
+[@L-M-Sherlock](https://github.com/L-M-Sherlock)
 
 ## Translators
 
