@@ -244,6 +244,8 @@ Shows a rank-based frequency value below words (when available). This is useful 
 
 :::tip
 Frequency information requires at least one rank-based frequency dictionary to be available in your Yomitan instance.
+
+If multiple frequency numbers are available for a word, the lowest (most frequent) number is used.
 :::
 
 ### Only show annotations on hover
