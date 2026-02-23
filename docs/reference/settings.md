@@ -168,6 +168,13 @@ Keyboard shortcuts can be used to access most of asbplayer's features.
 | Increase playback rate                                                               |         ✓         |          ✓          |
 | Decrease playback rate                                                               |         ✓         |          ✓          |
 | Toggle side panel                                                                    |         ✓         |          ✓          |
+| Mark hovered word as Mature                                                          |         ✓         |          ✓          |
+| Mark hovered word as Young                                                           |         ✓         |          ✓          |
+| Mark hovered word as Graduated                                                       |         ✓         |          ✓          |
+| Mark hovered word as Learning                                                        |         ✓         |          ✓          |
+| Mark hovered word as Unknown                                                         |         ✓         |          ✓          |
+| Mark hovered word as Uncollected                                                     |         ✓         |          ✓          |
+| Toggle hovered word as ignored                                                       |         ✓         |          ✓          |
 
 ### Extension shortcuts
 
@@ -175,6 +182,198 @@ Some shortcut behaviors require privileged browser extension APIs, requiring the
 
 - Chrome: `chrome://extensions/shortcuts`
 - Firefox: `about:addons` → `Manage Extension Shortcuts`
+
+## [Annotation](https://app.asbplayer.dev/?view=settings#annotation)
+
+### Import Words
+
+Imports words into asbplayer's **local word database**.
+
+Imported words take priority over the Anki word database when determining word status.
+
+The import dialog supports pasting arbitrary text (asbplayer will tokenize it) and importing previously-exported files.
+
+:::tip
+You can hover over words and use [keyboard shortcuts](#keyboard-shortcuts) to change their status locally.
+:::
+
+### Export Words
+
+Exports your local word database so it can be backed up, moved to another device, or shared between the website and extension.
+
+### Re-Build Anki word database
+
+Builds (or rebuilds) the local cache of word-status information sourced from Anki.
+
+:::tip
+The cache is also updated automatically during playback when a track is enabled and Anki is connectable.
+:::
+
+### Subtitle track
+
+Selects which subtitle track these annotation settings apply to.
+
+### Colorize subtitles based on known words
+
+Enables word-status styling (uncollected/unknown/learning/etc.). Styling uses the configured **Word color style** and **status colors**.
+
+### Display word readings
+
+Shows readings (e.g. furigana) above words.
+
+- **Always**: show readings for all eligible words.
+- **Learning or below**: show readings only for words at **Learning**, **Unknown**, or **Uncollected** status.
+- **Unknown or below**: show readings only for **Unknown** or **Uncollected** words.
+- **Never**: disable readings.
+
+### Display readings for ignored words
+
+If enabled, readings will always be shown for words you marked as **ignored**.
+
+:::tip
+Typically ignoring is used for proper nouns such as names and places or words that you don't want to measure your knowledge against.
+:::
+
+### Display word frequency
+
+Shows a rank-based frequency value below words (when available). This is useful for prioritizing which words are worth spending time learning.
+
+- **Always**: show frequency for all eligible words.
+- **Uncollected only**: only show frequency for **Uncollected** words.
+- **Never**: disable frequency.
+
+:::tip
+Frequency information requires at least one rank-based frequency dictionary to be available in your Yomitan instance.
+:::
+
+### Only show annotations on hover
+
+If enabled, annotations are hidden by default and only appear when you hover over the subtitle text.
+
+### Highlight words on hover
+
+If enabled, hovering a word will highlight it which helps you understand how yomitan has tokenized it.
+
+:::tip
+This highlight reflects the focus asbplayer has to register keyboard shortcuts. If the highlight does not appear, you may need to click on the player to focus it. Note that the keyboard shortcuts only work for either the video or the subtitle list (but not both at the same time) depending on where the focus is.
+:::
+
+### Word field search strategy
+
+Controls how asbplayer matches a subtitle word against local words and Anki cards found in your configured **Anki word fields**.
+
+- **Exact form collected**: the field must contain the exact surface form from the subtitle (running -> running).
+- **Lemma form collected**: the field must contain the lemma/base form (running -> run).
+- **Lemma or exact form collected**: treat the word as collected if either lemma or exact form matches (any of the above).
+- **Any form collected**: treat the word as collected if any related form matches (running -> run, ran, runs, etc.).
+
+### Card choice priority
+
+If multiple Anki cards match a word, this controls which card is used to determine the word's status:
+
+- **Field contains exact form** (fallback to best known card if multiple)
+- **Field contains lemma** (fallback to best known card if multiple)
+- **Best known card**
+- **Least known card**
+
+### Sentence field search strategy
+
+Controls how asbplayer searches your configured **Anki sentence fields**, it has the same options as **Word field search strategy**.
+
+:::tip
+Since sentences will contain multiple words thus diluting the relevance of the card state to any individual word, it's best to keep this as **Exact form collected** unless you only have sentence cards.
+:::
+
+### Yomitan API URL
+
+The URL for the Yomitan API endpoint. If the URL is unreachable or invalid, asbplayer will show an error.
+
+:::tip
+You will need a configured [Yomitan](https://yomitan.wiki/) instance and the [yomitan-api](https://github.com/yomidevs/yomitan-api).
+:::
+
+### Max word length
+
+Limits the maximum word length that asbplayer will try to scan/tokenize for annotation.
+
+:::tip
+Setting this too low will miss longer words, setting it too high may cause performance issues.
+:::
+
+### Anki decks (optional)
+
+Restricts Anki searches to the selected decks. If left empty, asbplayer searches across all decks.
+
+### Anki word fields
+
+Anki note fields that contain *only* the target word. This is the recommended way to source known-status information from Anki.
+
+### Anki sentence fields
+
+Anki note fields that contain a sentence (commonly used for sentence decks). This will be used as a fallback if there are no cards with the target word in **Anki word fields**.
+
+### Mature Anki stability/interval (days)
+
+Controls the cutoff (in days) for treating an Anki card as **Mature** versus lower maturity statuses.
+
+- **Uncollected**: not found in Anki or local word database.
+- **Unknown**: found in Anki with `is:new`.
+- **Learning**: found in Anki with `is:learn`.
+- **Graduated**: found in Anki with `-is:new -is:learn prop:s<{ceil(cutoff / 2)}`.
+- **Young**: found in Anki with `-is:new -is:learn prop:s>=${ceil(cutoff / 2)} prop:s<${cutoff}`.
+- **Mature**: found in Anki with `-is:new -is:learn prop:s>=${cutoff}`.
+
+:::tip
+If a card has its FSRS stability available (last review of the card was with FSRS enabled), it will be used instead of the interval.
+:::
+
+### Treat suspended Anki cards as
+
+Controls how **suspended** cards are treated when building word status from Anki:
+
+- **Normal**: use Anki status as-is.
+- Or choose a specific word status (e.g. **Mature**, **Unknown**, etc.) to force suspended cards to be treated as that status.
+
+:::tip
+If only some of the cards for a word are suspended, the suspended cards will be filtered out and the word status will be based on the unsuspended cards.
+:::
+
+### Word color style
+
+Controls how status colors are applied to words for **Colorize subtitles based on known words**:
+
+- **Text**: color of the word is changed.
+- **Background**: color behind the word is changed.
+- **Underline**: underline the word with the status color.
+- **Overline**: overline the word with the status color.
+- **Outline**: outline the word with the status color.
+
+:::tip
+When using **Outline**, you may need to set [**Subtitle outline thickness**](#subtitle-track) to `0` for the best results.
+:::
+
+### Thickness
+
+Controls the thickness (in pixels) of **Underline**, **Overline**, and **Outline** styling.
+
+### Colorize fully known words
+
+If disabled, fully known words are not styled. This reduces clutter if/when you know most of the words.
+
+### Word status colors
+
+Each status has a configurable color used by **Word color style** (see [**Mature Anki stability/interval (days)**](#mature-anki-stabilityinterval-days) for how Anki card statuses are determined):
+
+- **Uncollected**: Word is not present in your local word database and not found in your Anki word database.
+- **Unknown**: Word is present but considered unknown.
+- **Learning**: Word is currently learning.
+- **Graduated**: Word has graduated from learning.
+- **Young**: Word is known, but not yet mature.
+- **Mature**: Word is fully known (mature).
+
+:::tip
+You can reuse colors (e.g. **Graduated** and **Young**) if you don't want to differentiate between certain statuses.
+:::
 
 ## [Streaming video](https://app.asbplayer.dev/?view=settings#streaming-video) (extension only)
 
