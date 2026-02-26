@@ -207,6 +207,10 @@ Builds (or rebuilds) the local cache of word-status information sourced from Ank
 
 :::tip
 The cache is also updated automatically during playback when a track is enabled and Anki is connectable.
+
+This button is disabled unless your annotation settings [benefit from Anki integration](../guides/annotation.md#enable-or-disable-annotation-for-a-track).
+
+To clear the Anki word database entries for a track, [follow these steps](../guides/annotation.md#clear-anki-word-database).
 :::
 
 ### Subtitle track
