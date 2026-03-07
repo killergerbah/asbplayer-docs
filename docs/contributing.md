@@ -8,9 +8,25 @@ Contributions to the project are always welcome. asbplayer will never be complet
 
 ## Guidelines
 
-To reduce back-and-forth during review, ideally consult with the maintainer on the GitHub issue, or on [Discord](https://discord.gg/ad7VAQru7m), especially before attempting changes to UI/UX.
+To reduce back-and-forth during review, please consult with the maintainers on the GitHub issue, or on [Discord](https://discord.gg/ad7VAQru7m), especially before attempting significant changes to UI/UX.
 
 Format code according to the Prettier config and attempt to match the style of surrounding code.
+
+Low-effort pull requests are discouraged. Examples of low-effort contributions:
+
+- AI-assisted or AI-generated changes that the developer themselves do not understand.
+- Changes that the developer themselves did not test.
+- Changes that do not provide obvious value to the project, without an accompanying justification for their value.
+
+## Pull requests
+
+Make sure the pre-merge checks are passing:
+
+```bash
+yarn run verify
+```
+
+Then open a pull request on the [GitHub repository](https://github.com/killergerbah/asbplayer).
 
 ## Development
 
@@ -55,13 +71,3 @@ node ./merge-loc-from-en.js
 ```
 
 Translations are later pulled from the [Crowdin project](https://crowdin.com/project/asbplayer).
-
-## Pull requests
-
-Make sure the pre-merge checks are passing:
-
-```bash
-yarn run verify
-```
-
-Then open a pull request on the [GitHub repository](https://github.com/killergerbah/asbplayer).
