@@ -298,7 +298,18 @@ The URL for the Yomitan API endpoint. If the URL is unreachable or invalid, asbp
 You will need a configured [Yomitan](https://yomitan.wiki/) instance and the [yomitan-api](https://github.com/yomidevs/yomitan-api).
 :::
 
+### Yomitan parser
+
+Selects which Yomitan parser to use for tokenizing subtitle text:
+
+- **Scanning Parser (All languages)**: Yomitan's internal parser that matches the longest words from your dictionaries.
+- **MeCab (Japanese)**: Uses MeCab to parse Japanese text. Requires Yomitan to be configured with MeCab support, preferably with at least one UniDic dictionary.
+
 ### Max word length
+
+:::info
+This setting only applies to the Scanning Parser.
+:::
 
 Limits the maximum word length that asbplayer will try to scan/tokenize for annotation.
 
@@ -362,10 +373,6 @@ When using **Outline**, you may need to set [**Subtitle outline thickness**](#su
 
 Controls the thickness (in pixels) of **Underline**, **Overline**, and **Outline** styling.
 
-### Colorize fully known words
-
-If disabled, fully known words are not styled. This reduces clutter if/when you know most of the words.
-
 ### Word status colors
 
 Each status has a configurable color used by **Word color style** (see [**Mature Anki stability/interval (days)**](#mature-anki-stabilityinterval-days) for how Anki card statuses are determined):
@@ -378,6 +385,8 @@ Each status has a configurable color used by **Word color style** (see [**Mature
 - **Mature**: Word is fully known (mature).
 
 :::tip
+You can disable status stylings per your liking, e.g. disabling **Mature** to reduce clutter.
+
 You can reuse colors (e.g. **Graduated** and **Young**) if you don't want to differentiate between certain statuses.
 :::
 
