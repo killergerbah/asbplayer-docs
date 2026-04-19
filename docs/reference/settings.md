@@ -175,6 +175,7 @@ Keyboard shortcuts can be used to access most of asbplayer's features.
 | Mark hovered word as Unknown                                                         |         ✓         |          ✓          |
 | Mark hovered word as Uncollected                                                     |         ✓         |          ✓          |
 | Toggle hovered word as ignored                                                       |         ✓         |          ✓          |
+| Open statistics                                                                      |         ✓         |          ✓          |
 
 ### Extension shortcuts
 
@@ -220,6 +221,10 @@ Selects which subtitle track these annotation settings apply to.
 ### Colorize subtitles based on known words
 
 Enables word-status styling (uncollected/unknown/learning/etc.). Styling uses the configured **Word color style** and **status colors**.
+
+### Generate statistics automatically
+
+Automatically generate statistics for the current media upon load. This will also enable the statistics overlay.
 
 ### Display word readings
 
