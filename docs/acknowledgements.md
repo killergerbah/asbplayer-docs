@@ -45,7 +45,8 @@ We epecially acknowledge the wonderful humans below.
 [@danthemango](https://github.com/danthemango),
 [@L-M-Sherlock](https://github.com/L-M-Sherlock),
 [@Hit2Skill](https://github.com/Hit2Skill),
-[@khajiitvaper2017](https://github.com/khajiitvaper2017)
+[@khajiitvaper2017](https://github.com/khajiitvaper2017),
+[@saifkaral](https://github.com/saifkaral)
 
 ## Translators
 
