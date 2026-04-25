@@ -6,17 +6,21 @@ sidebar_position: 6
 
 Contributions to the project are always welcome. asbplayer will never be complete, and there are a ton of [issues](https://github.com/killergerbah/asbplayer/issues) to work on. [Many contributions](https://github.com/killergerbah/asbplayer/pulls?q=is%3Apr+is%3Aclosed) have already been made, including some very large features.
 
-## Guidelines
+## AI-assisted contributions
 
-To reduce back-and-forth during review, please consult with the maintainers on the GitHub issue, or on [Discord](https://discord.gg/ad7VAQru7m), especially before attempting significant changes to UI/UX.
+The guidelines below take inspiration from the [Linux project](https://github.com/torvalds/linux/blob/master/Documentation/process/coding-assistants.rst#attribution).
 
-Format code according to the Prettier config and attempt to match the style of surrounding code.
+AI-assisted contributions must include a tag like the following in the commit message:
 
-Low-effort pull requests are discouraged. Examples of low-effort contributions:
+```
+Assisted-by: AGENT_NAME:MODEL_VERSION
+```
 
-- AI-assisted or AI-generated changes that the developer themselves do not understand.
-- Changes that the developer themselves did not test.
-- Changes that do not provide obvious value to the project, without an accompanying justification for their value.
+For example:
+
+```
+Assisted-by: Claude:claude-3-opus
+```
 
 ## Pull requests
 
