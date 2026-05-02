@@ -1,3 +1,3 @@
 # asbplayer-docs
 
-Docs website built with [Docusaurus](https://docusaurus.io/).
+This repository has been deprecated and moved to the parent repository [asbplayer](https://github.com/asbplayer/asbplayer).
